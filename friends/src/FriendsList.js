@@ -3,9 +3,14 @@ import React from 'react';
 
 
 
-FriendsList = () => {
+const FriendsList = () => {
     return (
         <div>
+            <form>
+                <input type="text" 
+                placeholder= "New friend" />
+
+            </form>
 
         </div>
     )
